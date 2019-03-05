@@ -1,0 +1,219 @@
+/* GLOBAL CLASSES */
+
+.container {
+    max-width: 490px;
+}
+
+/* GLOBAL ELEMENT'S CLASSES */
+
+.big-btn, .btn {
+    max-width: 120px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+/*FIRST-SECTOR STYLES*/
+
+.logo {
+    margin-left: 30px;
+}
+
+.header .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    margin-right: 30px;
+    text-align: right;
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.header nav {
+    margin-bottom: 50px;
+}
+
+nav a {
+    padding: 1px 0;
+    opacity: 0.5;
+}
+
+nav a:hover {
+    padding-bottom: 1px;
+    border: none;
+    opacity: 1;
+}
+
+nav label {
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    line-height: 45px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.burger-line {
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 23px;
+    right: 50px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.first-line {
+    top: 11px;
+}
+
+.fourth-line {
+    top: 34px;
+}
+
+nav input[id = "check-menu"]:checked ~ .wrapper {
+    max-height: 500px;
+    font-size: 1.7rem;
+}
+
+nav input[id = "check-menu"]:checked ~ .first-line,
+nav input[id = "check-menu"]:checked ~ .fourth-line {
+    display: none;
+}
+
+nav input[id = "check-menu"]:checked ~ .second-line {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+nav input[id = "check-menu"]:checked ~ .third-line {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.first-sector-data h1 {
+    font-size: 4.2rem;
+}
+
+.slider {
+    font-size: 2.5rem;
+}
+
+.first-sector-data {
+    padding-top: 20%;
+}
+
+/*THIRD-SECTOR STYLES*/
+
+.third-sector-data .row,
+.sixth-sector-data .row {
+    width: 100%;
+    margin: 0;
+}
+
+/*FIFTH-SECTOR STYLES*/
+
+.fifth-sector-data .themes-gallery {
+    max-width: 98%;
+}
+
+.card .description {
+    margin: 25px;
+}
+
+.fifth-sector-data .large-fz {
+    font-size: 2rem;
+}
+
+/*SIXTH-SECTOR STYLES*/
+
+.sixth-sector-data .col-left p {
+    font-weight: normal;
+}
+
+/*SEVENTH-SECTOR STYLES*/
+
+.seventh-sector-data .container {
+    margin: 0;
+}
+
+.seventh-sector-data .col {
+    padding: 0;
+}
+
+.seventh-sector-data .col .pict:before {
+    font-size: 2rem;
+}
+
+/*NINTH-SECTOR STYLES*/
+
+.ninth-sector-data .team {
+    -ms-grid-rows: 53% 47%;
+    grid-template-rows: 53% 47%;
+}
+
+.ninth-sector-data .column .wrapperText p {
+    display: none;
+}
+
+.ninth-sector-data .wrapperPict {
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+.ninth-sector-data .column:hover .wrapperPict {
+    width: 70%;
+    padding-bottom: 70%;
+}
+
+/*FOOTER STYLES*/
+
+.footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.footer h2,
+.footer p {
+    width: 65%;
+    margin: 15px auto;
+}
+
+.footer p {
+    width: 50%;
+}
+
+.footer .nav {
+    /*margin: 0 auto 15px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .nav a {
+    padding: 10px;
+    width: 10%;
+    margin: 0;
+}
+
+.footer .up {
+    width: 4.8%;
+    padding-bottom: 4.8%;
+}
+
+.footer footer {
+    background: none;
+}

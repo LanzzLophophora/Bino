@@ -1,0 +1,147 @@
+/* GLOBAL CLASSES */
+
+.large-fz {
+    font-size: 2rem;
+}
+
+/* GLOBAL ELEMENT'S CLASSES */
+
+.big-btn {
+    max-width: 150px;
+}
+
+/*FIRST-SECTOR STYLES*/
+
+.first-sector-data p {
+    width: 70%;
+}
+
+/*SECOND-SECTOR STYLES*/
+
+.second-sector-data .row .col {
+    -ms-flex-preferred-size: unset;
+    flex-basis: unset;
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.second-sector-data .pict .position-relative {
+    width: 23%;
+    padding-bottom: 23%;
+}
+
+.second-sector-data p {
+    width: 65%;
+}
+
+/*THIRD-SECTOR STYLES*/
+
+.third-sector-data .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.third-sector-data .row .col:first-child {
+    width: 75%;
+    margin: 20px auto;
+}
+
+/*FOURTH-SECTOR STYLES*/
+
+.fourth-sector-data .col-left {
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.7))), url('../../img/bg/bg4section.png');
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../img/bg/bg4section.png');
+    background-image: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../img/bg/bg4section.png');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../img/bg/bg4section.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth-sector-data .col-left .col {
+    padding: 0;
+    width: 65%;
+    margin: auto;
+}
+
+/*FIFTH-SECTOR STYLES*/
+
+.fifth-sector-data .themes-gallery {
+    max-width: 80%;
+}
+
+.card .description {
+    margin: 25px;
+}
+
+.description .white-bg-color {
+    width: 30px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+/*SIXTH-SECTOR STYLES*/
+
+.sixth-sector-data .col-left p {
+    display: none;
+}
+
+.sixth-sector-data .col-left .btn {
+    margin-top: 25px;
+}
+
+/*EIGHTH-SECTOR STYLES*/
+
+.eighth-sector-data p {
+    line-height: 30px;
+}
+
+/*NINTH-SECTOR STYLES*/
+
+.ninth-sector-data .wrapperPict {
+    width: 40%;
+    padding-bottom: 40%;
+}
+
+.ninth-sector-data .column:hover .wrapperPict {
+    width: 55%;
+    padding-bottom: 55%;
+}
+
+.ninth-sector-data .column .wrapperText {
+    padding-top: 5px;
+}
+
+.ninth-sector-data .column .wrapperText span {
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+.ninth-sector-data .wrapperText:before {
+    height: 15px;
+}
+
+/*TENTH-SECTOR STYLES*/
+
+.tenth-sector-data .col {
+    height: 75px;
+}
+
+.tenth-sector-data .row .col img {
+    width: 100%;
+    height: 50%;
+}
+
+/*ELEVENTH-SECTOR STYLES*/
+
+.eleventh-sector-data .col p:last-of-type {
+    display: none;
+}
+
+/*TWELFTH-SECTOR STYLES*/
+
+.twelfth-sector-data .left {
+    font-size: 14px;
+}

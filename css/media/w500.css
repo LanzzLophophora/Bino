@@ -1,0 +1,79 @@
+/*Global styles*/
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: auto;
+}
+
+.container {
+    max-width: 400px;
+}
+
+/*FIRST-SECTOR STYLES*/
+
+.logo {
+    height: 40px;
+}
+
+.slider {
+    margin: 20px;
+}
+
+/*FOURTH-SECTOR STYLES*/
+
+.fourth-sector-data .col-left .col p {
+    line-height: normal;
+}
+
+/*FIFTH-SECTOR STYLES*/
+
+.fifth-sector-data h2 {
+    padding-top: 20px;
+}
+
+.fifth-sector-data > p,
+.sixth-sector-data > p,
+.eighth-sector-data > p,
+.ninth-sector-data > p,
+.tenth-sector-data p,
+.eleventh-sector-data > p,
+.twelfth-sector-data > p {
+    line-height: 20px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/*SEVENTH-SECTOR STYLES*/
+
+.seventh-sector-data .col:first-child,
+.seventh-sector-data .col:last-child {
+    padding: 0;
+}
+
+/*EIGHTH-SECTOR STYLES*/
+
+.eighth-sector-data .col {
+    max-width: 75%;
+}
+
+/*NINTH-SECTOR STYLES*/
+
+.ninth-sector-data .column:hover .wrapperText {
+    display: none;
+}
+
+/*ELEVENTH-SECTOR STYLES*/
+
+.eleventh-sector-data .col p:last-of-type {
+    display: none;
+}
+
+/*FOOTER STYLES*/
+
+.footer {
+    padding: 40px 0;
+}

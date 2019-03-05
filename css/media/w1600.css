@@ -1,0 +1,31 @@
+/*FIRST-SECTOR STYLES*/
+
+.first-sector-data p {
+    width: 40%;
+}
+
+/*NINTH-SECTOR STYLES*/
+
+.ninth-sector-data .wrapperPict, .ninth-sector-data .wrapperText, .wrapperText * {
+    margin: 10px auto;
+}
+
+.ninth-sector-data .wrapperText:before {
+    height: 60px;
+}
+
+.ninth-sector-data .column .wrapperText {
+    padding-top: 30px;
+}
+
+.ninth-sector-data .team {
+    -ms-grid-rows: 48% 52%;
+    grid-template-rows: 48% 52%;
+}
+
+/*ELEVENTH-SECTOR STYLES*/
+
+.eleventh-sector-data .col p {
+    line-height: 25px;
+    margin: 15px 50px;
+}

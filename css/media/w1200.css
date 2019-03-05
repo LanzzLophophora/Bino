@@ -1,0 +1,51 @@
+/*Global styles*/
+
+html {
+    font-size: 9px;
+}
+
+/* GLOBAL ELEMENT'S CLASSES */
+
+.round-btn {
+    width: 55px;
+    height: 0;
+    padding-bottom: 55px;
+}
+
+/*SIXTH-SECTOR STYLES*/
+
+.sixth-sector-data .pict {
+    margin: 10% auto;
+}
+
+.sixth-sector-data .col-left .dots {
+    margin: 25px auto;
+}
+
+/*NINTH-SECTOR STYLES*/
+
+.ninth-sector-data .team {
+    -ms-grid-rows: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.team .wrapperText p {
+    margin: 0;
+}
+
+/*ELEVENTH-SECTOR STYLES*/
+
+.eleventh-sector-data .description:before {
+    border-right: 20px solid #e74c3c;
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+}
+
+.eleventh-sector-data .row:last-child .description:before {
+    border-left: 20px solid #e74c3c;
+}
+
+.eleventh-sector-data .col p,
+.eleventh-sector-data .description * {
+    margin: 5px 25px;
+}

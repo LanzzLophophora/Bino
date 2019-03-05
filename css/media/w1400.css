@@ -1,0 +1,24 @@
+/*FIRST-SECTOR STYLES*/
+
+.first-sector-data p {
+    width: 50%;
+}
+
+/*FIFTH-SECTOR STYLES*/
+
+.fifth-sector-data .themes-gallery {
+    max-width: 50%;
+}
+
+/*NINTH-SECTOR STYLES*/
+
+.team .wrapperText p {
+    margin: 5px auto;
+}
+
+/*ELEVENTH-SECTOR STYLES*/
+
+.eleventh-sector-data .col p {
+    line-height: 15px;
+    margin: 10px 50px;
+}
